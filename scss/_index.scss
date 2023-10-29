@@ -1,0 +1,36 @@
+/*Estilos de Index*/
+
+
+.fondo-morado2 {
+  background-color: $fondo-color;
+  text-align: center;
+  color: $text-color;
+  padding: $padding;
+  margin: $margin;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+
+
+.footer {
+    background-color: #A6A6A6;
+    text-align: center;
+    padding: 10px 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.testimonios {
+    background-color: lightgray;
+    margin: 15px;
+    padding: 50px;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.texto-blanco {
+    color: white;
+}

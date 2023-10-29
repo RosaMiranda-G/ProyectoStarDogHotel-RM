@@ -1,0 +1,40 @@
+/*Estilos de Contacto*/
+
+.flex-container4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #D0BFF1;
+    padding: 30px;
+    margin: 10px;
+
+}
+
+.contacto-blanco {
+    text-align: center;
+    background-color: white;
+    margin: 2%;
+    padding-top: 20px;
+  padding-right: 100px;
+  padding-bottom: 20px;
+  padding-left: 100px;
+    justify-content: center;
+}
+
+.comentarios {
+    display: flex;
+    flex-direction: column;
+    margin: 100px, 0px;
+    justify-content: space-around;
+    height: 350px;
+}
+
+input,
+button {
+    height: 30px;
+}
+
+.reset {
+    box-sizing: border-box;
+}
