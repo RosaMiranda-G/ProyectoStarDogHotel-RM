@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="../styles/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../styles/style.css">
     <title>Contacto|Star Dog Hotel</title>
 </head>
@@ -15,7 +17,7 @@
         <header class="flex-container">
             <!--Logo Principal-->
             
-                <img class="logo" src="../assets/Star Dog Hotel Logo.png" alt="Logo" width="500">
+                <img class="logo animate__animated animate__backInDown" src="../assets/Star Dog Hotel Logo.png" alt="Logo" width="500">
             
             <!--Menu Navegable-->
             <nav>
@@ -72,7 +74,7 @@
     <!--Seccion de Información-->
     <div class="grid-container">
 
-        <section class="flex-container4">
+        <section class="flex-container4" data-aos="fade-up" data-aos-anchor-placement="top-center">
 
 
             <article>
@@ -105,6 +107,10 @@
             </div>
         </div>
         <script src="../script/bootstrap.bundle.min.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
 </body>
 
 </html>

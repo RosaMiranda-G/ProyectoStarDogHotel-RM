@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="../styles/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../styles/style.css">
     <title>Servicios|Star Dog Hotel</title>
 </head>
@@ -15,7 +17,7 @@
         <header class="flex-container">
             <!--Logo Principal-->
             <a href="#">
-                <img src="../assets/Star Dog Hotel Logo.png" alt="Logo" width="500" class="logo">
+                <img src="../assets/Star Dog Hotel Logo.png" alt="Logo" width="500" class="logo animate__animated animate__backInDown">
             </a>
             <!--Menu Navegable-->
             <nav>
@@ -39,7 +41,7 @@
             </article>
 
             <!--Seccion de servicios-->
-            <section class="fondo-lila">
+            <section class="fondo-lila" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500">
                 <article>
                     <h3>Evaluación médica veterinaria de ingreso.</h3>
                     <p>La evaluación generalmente incluye un examen físico completo, en el que el veterinario revisa
@@ -125,6 +127,10 @@
         </div>
     </div>
     <script src="../script/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
 </body>
 
 </html>
