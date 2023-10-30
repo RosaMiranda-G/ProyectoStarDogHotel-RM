@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url(../fonts/Dosis/Dosis-VariableFont_wght.ttf);
 * {
   padding: 0%;
@@ -203,6 +204,15 @@ button {
 
 .reset {
   box-sizing: border-box;
+}
+
+/* Transción */
+.fondo-morado2 {
+  background-color: #3F0580;
+  transition: background-color 5s;
+}
+.fondo-morado2:hover {
+  background-color: #200580;
 }
 
 /*------------------------------------------------*/

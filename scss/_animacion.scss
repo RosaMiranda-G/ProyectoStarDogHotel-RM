@@ -1,0 +1,10 @@
+/* Transción */
+
+.fondo-morado2 {
+    background-color: #3F0580;
+    transition: background-color 5s;
+
+    &:hover {
+        background-color: #200580;
+    }
+}
