@@ -100,6 +100,23 @@ a:hover {
   align-items: center;
 }
 
+/* Transción */
+.fondo-morado2 {
+  background-color: #3F0580;
+  transition: background-color 3s;
+}
+.fondo-morado2:hover {
+  background-color: #3e17cb;
+}
+
+.fondo-morado {
+  background-color: #3F0580;
+  transition: background-color 3s;
+}
+.fondo-morado:hover {
+  background-color: #3e17cb;
+}
+
 /*Estilos de Index*/
 .fondo-morado2 {
   background-color: #3F0580;
@@ -204,23 +221,6 @@ button {
 
 .reset {
   box-sizing: border-box;
-}
-
-/* Transción */
-.fondo-morado2 {
-  background-color: #3F0580;
-  transition: background-color 3s;
-}
-.fondo-morado2:hover {
-  background-color: #3e17cb;
-}
-
-.fondo-morado {
-  background-color: #3F0580;
-  transition: background-color 3s;
-}
-.fondo-morado:hover {
-  background-color: #3e17cb;
 }
 
 /*------------------------------------------------*/
