@@ -100,7 +100,7 @@ a:hover {
   align-items: center;
 }
 
-/* Transción */
+/* Transición en sección "¡Contáctate Con Nosotros!" y "¡No duden en contactarnos para ..." */
 .fondo-morado2 {
   background-color: #3F0580;
   transition: background-color 3s;
@@ -111,10 +111,38 @@ a:hover {
 
 .fondo-morado {
   background-color: #3F0580;
-  transition: background-color 3s;
+  transition: background-color 2s;
 }
 .fondo-morado:hover {
   background-color: #3e17cb;
+}
+
+/* Transición en cada testimonio" */
+.testimonios {
+  background-color: lightgray;
+  transition: background-color 1s, transform 1s;
+}
+.testimonios:hover {
+  background-color: rgb(189, 177, 212);
+  transform: scale(1.1);
+}
+
+/* Transición en cada imagen en galeria */
+.imgbox {
+  filter: grayscale(100%);
+  transition: transform 1s;
+}
+.imgbox:hover {
+  transform: scale(1.1);
+  filter: grayscale(0%);
+}
+
+/* Transición en cada imagen */
+.image-center {
+  transition: transform 1s;
+}
+.image-center:hover {
+  transform: scale(1.1);
 }
 
 /*Estilos de Index*/
