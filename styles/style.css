@@ -209,10 +209,18 @@ button {
 /* Transción */
 .fondo-morado2 {
   background-color: #3F0580;
-  transition: background-color 5s;
+  transition: background-color 3s;
 }
 .fondo-morado2:hover {
-  background-color: #200580;
+  background-color: #3e17cb;
+}
+
+.fondo-morado {
+  background-color: #3F0580;
+  transition: background-color 3s;
+}
+.fondo-morado:hover {
+  background-color: #3e17cb;
 }
 
 /*------------------------------------------------*/
