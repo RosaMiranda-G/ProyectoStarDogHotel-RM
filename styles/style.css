@@ -12,6 +12,7 @@
 .grid-container .flex-container {
   display: flex;
   align-items: stretch;
+  justify-content: space-between;
 }
 .grid-container .flex-container .image-center {
   display: block;
@@ -32,9 +33,7 @@
   justify-content: space-between;
 }
 
-.grid-container2 {
-  display: grid;
-}
+
 
 .flex-container3 {
   display: flex;
