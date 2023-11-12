@@ -1,104 +1,5 @@
 @charset "UTF-8";
 @import url(../fonts/Dosis/Dosis-VariableFont_wght.ttf);
-* {
-  padding: 0%;
-  margin: 0%;
-}
-
-.grid-container {
-  display: grid;
-  grid-template-columns: 1fr;
-}
-.grid-container .flex-container {
-  display: flex;
-  align-items: stretch;
-  justify-content: space-between;
-}
-.grid-container .flex-container .image-center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 20px 20px;
-}
-.grid-container .flex-container .fondo-lila {
-  background-color: #D0BFF1;
-  padding: 30px;
-  margin: 10px;
-  width: 100%;
-}
-
-.flex-container2 {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-
-
-.flex-container3 {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-li.header-nav {
-  display: inline-block;
-  margin: 10px;
-}
-
-header {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  margin: 30px;
-}
-
-h1 {
-  text-align: center;
-  font-size: 30px;
-  color: #3F0580;
-}
-
-body {
-  font-family: "Dosis", sans-serif;
-}
-
-nav ul {
-  list-style-type: none;
-  font-family: "Dosis", sans-serif;
-  font-size: 20px;
-}
-
-a {
-  text-decoration: none;
-}
-
-.logo {
-  width: 500px;
-}
-
-/*Pseudoclases y BEM*/
-a:link {
-  color: #3F0580;
-}
-
-a:hover {
-  font-weight: bold;
-  background-color: #3F0580;
-  color: white;
-}
-
-.fondo-morado {
-  background-color: #3F0580;
-  text-align: center;
-  color: white;
-  padding: 20px 80px;
-  margin: 10px;
-  align-items: center;
-}
-
 /* Transición en sección "¡Contáctate Con Nosotros!" y "¡No duden en contactarnos para ..." */
 .fondo-morado2 {
   background-color: #3F0580;
@@ -250,9 +151,108 @@ button {
   box-sizing: border-box;
 }
 
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.grid-container .flex-container {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+}
+.grid-container .flex-container .image-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 20px;
+}
+.grid-container .flex-container .fondo-lila {
+  background-color: #D0BFF1;
+  padding: 30px;
+  margin: 10px;
+  width: 100%;
+}
+
+.grid-container2 {
+  display: grid;
+}
+
+.flex-container3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+li.header-nav {
+  display: inline-block;
+  margin: 10px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 30px;
+  color: #3F0580;
+}
+
+body {
+  font-family: "Dosis", sans-serif;
+}
+
+nav ul {
+  list-style-type: none;
+  font-family: "Dosis", sans-serif;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  width: 500px;
+}
+
+/*Pseudoclases y BEM*/
+a:link {
+  color: #3F0580;
+}
+
+a:hover {
+  font-weight: bold;
+  background-color: #3F0580;
+  color: white;
+}
+
+.fondo-morado {
+  background-color: #3F0580;
+  text-align: center;
+  color: white;
+  padding: 20px 80px;
+  margin: 10px;
+  align-items: center;
+}
+
 /*------------------------------------------------*/
 /* Para desktop */
 @media screen and (min-width: 1200) {
+  .logo {
+    width: 500px;
+    height: 100%;
+  }
   .grid-container {
     display: grid;
     grid-template-columns: 1fr;
@@ -262,10 +262,17 @@ button {
     align-items: stretch;
   }
 }
-/* Para telefono mobile */
-@media (min-width: 480px) and (max-width: 576px) {
+@media (min-width: 576px) and (max-width: 800px) {
   .logo {
-    width: 400px;
+    width: 500px;
+    height: 100%;
+  }
+}
+/* Para telefono mobile */
+@media (min-width: 320px) and (max-width: 576px) {
+  .logo {
+    width: 100%;
+    height: 100%;
   }
   li.header-nav {
     display: block;
